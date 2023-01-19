@@ -1,0 +1,163 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "home",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+
+    {
+      "menuHeader": "Pages"
+    },
+    {
+      "url": "/user",
+      "name": "users",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "layouts"
+    },
+    {
+      "url": "/roles",
+      "name": "permissions",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "layouts"
+    },
+     {
+      "url": "/patients",
+      "name": "patients",
+      "icon": "menu-icon tf-icons bx bx-street-view",
+      "slug": "layouts"
+    },
+    {
+      "url": "/appointments",
+      "name": "appointment",
+      "icon": "menu-icon bx bx-calendar-plus",
+      "slug": "layouts"
+    },
+    {
+      "name": "labs",
+      "icon": "menu-icon bx bx-money",
+      "slug": "pages-misc",
+      "submenu": [
+        {
+          "url": "/laps",
+          "name": "labs",
+          "icon": "menu-icon bx bx-donate-blood",
+          "slug": "layouts"
+        },
+        {
+          "url": "/labrequests",
+          "name": "lab requests",
+          "icon": "menu-icon bx bxs-vial",
+          "slug": "layouts"
+        }        
+      ]},
+          {
+      "url": "/todayvisits",
+      "name": "today visits",
+      "icon": "menu-icon bx bx-clinic",
+      "slug": "layouts"
+    },
+    {
+      "url": "/drugs",
+      "name": "medicine",
+      "icon": "menu-icon bx bx-capsule",
+      "slug": "layouts"
+    }
+    ,
+    {
+      "url": "/payments",
+      "name": "payment transactions",
+      "icon": "menu-icon bx bx-money",
+      "slug": "layouts"
+    },
+    {
+      "name": "expenses",
+      "icon": "menu-icon bx bx-money",
+      "slug": "pages-misc",
+      "submenu": [
+        {
+          "url": "/expenseItems",
+          "name": "expense Items",
+          "icon": "menu-icon bx bx-money",
+          "slug": "layouts"
+        },
+        {
+          "url": "/expenses",
+          "name": "expenses",
+          "icon": "menu-icon bx bx-money",
+          "slug": "layouts"
+        }    
+      ]},
+    {
+      "name": "Reports",
+      "icon": "menu-icon tf-icons bx bx-copy",
+      "slug": "pages-misc",
+      "submenu": [
+        {
+          "url": "/paymentsreports",
+          "name": "paymentsReports",
+          "icon": "menu-icon bx bx-notepad",
+          "slug": "layouts"
+        },
+        {
+          "url": "/expensesreports",
+          "name": "expensesReports",
+          "icon": "menu-icon bx bx-notepad",
+          "slug": "layouts"
+        },
+        {
+          "url": "/medicinesreports",
+          "name": "medicinesReports",
+          "icon": "menu-icon bx bx-notepad",
+          "slug": "layouts"
+        },
+        {
+          "url": "/appointmentsreports",
+          "name": "appointmentsReports",
+          "icon": "menu-icon bx bx-notepad",
+          "slug": "layouts"
+        },
+        {
+          "url": "/patientsreports",
+          "name": "patientsReports",
+          "icon": "menu-icon bx bx-notepad",
+          "slug": "layouts"
+        }
+
+      ]
+    }
+  , {
+    "name": "settings",
+    "icon": "menu-icon bx bx-money",
+    "slug": "pages-misc",
+    "submenu": [
+      {
+        "url": "/insurances",
+        "name": "insurance",
+        "icon": "menu-icon bx bx-wallet-alt",
+        "slug": "layouts"
+      },
+      {
+        "url": "/addition",
+        "name": "additions",
+        "icon": "menu-icon bx bx-layer-plus",
+        "slug": "layouts"
+      },
+      {
+        "url": "/areas",
+        "name": "area",
+        "icon": "menu-icon bx bx-map-pin",
+        "slug": "layouts"
+      },
+      {
+        "url": "/services",
+        "name": "service",
+        "icon": "menu-icon bx bx-plus-medical",
+        "slug": "layouts"
+      }
+  
+]}
+
+  ]
+}
